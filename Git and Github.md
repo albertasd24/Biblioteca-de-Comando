@@ -116,6 +116,9 @@ git push origin --tags
 ```
 Enviar cambios a repositorio remoto sobre los tags
 
+
+## Limpiar Repositorio Local, Archivos deseados
+
 ### Software Visual
 ```
 gitk
