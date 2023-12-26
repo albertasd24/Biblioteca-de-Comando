@@ -20,7 +20,7 @@ Eliminar base de datos.
 db.auth("usuario","contraseña");
 ```
 Autenticar el usuario de la base de datos.
-> Nota: Antes de ejecutar el comando de autenticación debe hacer _**use admin**_. Esto porque los usuarios que registro para en la base de datos
+> Nota: Antes de ejecutar el comando de autenticación debe hacer _**use admin**_. Esto porque los usuarios que registro para la administración de la base de datos
 ## Colecctions (Colecciones)
 ```
 show collections
