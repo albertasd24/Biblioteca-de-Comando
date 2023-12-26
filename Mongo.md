@@ -9,6 +9,18 @@ Ver bases de datos
 use nombre_base_de_datos
 ```
 Usar base de datos
+```
+db.dropDatabase()
+```
+Eliminar base de datos.
+> _**Nota**_: Antes de ejecutar el comando previamente debemos habernos posicionado en la base de datos con **use <nombre_base_de_datos>**
+
+## Autenticación
+```
+db.auth("usuario","contraseña");
+```
+Autenticar el usuario de la base de datos.
+> Nota: Antes de ejecutar el comando de autenticación debe hacer _**use admin**_. Esto porque los usuarios que registro para en la base de datos
 ## Colecctions (Colecciones)
 ```
 show collections
