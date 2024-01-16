@@ -18,3 +18,22 @@ Activar entorno virtual
 deactivate
 ```
 Desactivar entorno virtual
+
+## pip (Gestor de dependencias)
+> Pip es el administrador de paquetes, quiere decir que es el que nos permite instalar librerias al proyecto. Tal como lo es npm en javascript y maven/Grandle en java
+```
+pip install nombre_libreria
+```
+Instala la libreria que se haya indicado
+```
+pip install nombre_libreria==número_versión
+```
+Instala la libreria con una versión en específico
+```
+pip install -r requirements.txt
+```
+Instala las librerias que se encuentren registradas en el archivo requirements.txt
+```
+pip list
+```
+Lista las librrias instaladas en un proyecto
