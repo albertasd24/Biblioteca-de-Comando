@@ -1,5 +1,5 @@
 # FatsApi
-
+> FastAPI es un marco (framework) de desarrollo web para construir APIs (interfaces de programación de aplicaciones) en Python de manera rápida y eficiente.
 ```
 fastapi --version
 ```
