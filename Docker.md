@@ -1,5 +1,5 @@
 # Docker
-
+> Docker es una *plataforma* de software que le _permite crear, probar e implementar_ aplicaciones rápidamente.
 ## Containers (Contenedores)
 ```
 Docker ps
