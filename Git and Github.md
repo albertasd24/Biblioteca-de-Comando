@@ -134,15 +134,15 @@ Enviar cambios a repositorio remoto sobre los tags
 
 # Buscar 
 ```
-git greo <palabra a buscar> 
+git grep <palabra a buscar> 
 ```
 Buscar la palabra
 ```
-git greo <palabra a buscar> -n
+git grep <palabra a buscar> -n
 ```
 El -n es opcional indica en que archivo y en que linea encuentra la coincidencia
 ```
-git greo -c <palabra a buscar> 
+git grep -c <palabra a buscar> 
 ```
 -c contar el número de veces que aparece la palabra
 ## Limpiar Repositorio Local, Archivos deseados
