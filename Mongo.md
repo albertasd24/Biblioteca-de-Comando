@@ -42,11 +42,15 @@ db.nombre_coleccion.find(filtro)
 Consultar todos los datos de la colección con un criterio de filtro
 - filtro: esta compuesto de forma { campo : valor }
 ```
-db.nombre_collecion.delete({})
+db.nombre_coleccion.delete({})
 ```
 Eliminar uno o más valores  (Tener cuidado no se puede revertir)
 - filtro: esta compuesto de forma { campo : valor }
 
+```
+db.nombre_coleccion.aggregate([ { $project: { "rootSize": { $sum: { $bsonSize: "$$ROOT" } } } } ])
+```
+Ver peso de los documentos
 # Información en la base de datos (Backup)
 ```
 mongoimport --db <nombre base de datos> --collection <nombre de la colección> --file <ruta del archivo> --jsonArray
