@@ -137,9 +137,9 @@ Cambiar el nombre de un archivo. ```Ejemplo: mv imagenCat.jpg imagenGato.jpg```
 ### Comprimir y descromprimir
 
 ```
-tar -czvf carpeta/archivo
+tar -czf paquete.tar.gz /carpeta a empaquetar
 ```
-Comprimir carpeta/archivo. ```Ejemplo: tar -czvf carpeta archivo```
+Comprimir carpeta/archivo. ```Ejemplo: tar -czf paquete.tar.gz /carpeta a empaquetar```
 ```
 tar -zxf carpeta_comprimida
 ```
